@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "AdsEyeTopOn", targets: ["AdsEyeTopOnLinker"])
     ],
     dependencies: [
-        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.21"),
+        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.22"),
               .package(url: "https://github.com/AdsEye/AdsEyeSPM-TPNiOS.git", exact: "6.5.74"),
               .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.0")
     ],
@@ -47,8 +47,8 @@ let package = Package(
 ),
               .binaryTarget(
     name: "AdsEyeTopOnAdapter",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.21/spm/AdsEyeTopOnAdapter-1.4.21-09101108.zip",
-    checksum: "8241a4e16272e89fd7f50252b36871adfb2adff0b4c152072f90e0ed74079f73"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.22/spm/AdsEyeTopOnAdapter-1.4.22-10091517.zip",
+    checksum: "37bd0954a549de04143cb3343bd4e5a5e3465993de55106bdf7c02ce23ef9914"
 )
     ]
 )
